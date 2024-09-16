@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Center the content on the page */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Button to turn on the light -->
+    <button onclick="document.getElementById('myImage').src='bulbon.png'">Turn on the light</button>
+
+    <!-- Image display area -->
+    <img id="myImage" src="bulboff.png" style="width:100px">
+
+    <!-- Button to turn off the light -->
+    <button onclick="document.getElementById('myImage').src='bulboff.png'">Turn off the light</button>
+</body>
+</html>
